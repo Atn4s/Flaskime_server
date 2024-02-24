@@ -27,7 +27,9 @@ listaanime.db que ao executar o servidor ele é criado automaticamente para faci
 <b> 3 - Após instalar os requisitos basta executar: </b>
 <i> python3 servidor.py {porta desejada para o Back-end da aplicação Flaskime!} </i>
 <br>
-<b> 4 - Agora o resto é no <a href="https://github.com/Atn4s/Flaskime_web">Front end!</a> (Relaxe é apenas configurar seu IP e PORTA)</b>
+<b> 4 - Agora o resto é aqui: <a href="https://atn4s.github.io/Flaskime_web/">Flaskime_web</a> (Relaxe é apenas configurar seu IP e PORTA) </b> 
+<br>
+<b>5 - Se quiser modificar o <a href="https://github.com/Atn4s/Flaskime_web">Front end!</a> aqui está o repositório</b> 
 <br>
 <b> Aproveite a aplicação Flaskime - Your personal haven for anime: private, secure, and always local.</b>
 <br>
