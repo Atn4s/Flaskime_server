@@ -29,10 +29,10 @@ def inserirAnime():
     try:
         data = request.get_json()
         if anime_existe_no_banco(data.get('title')):
-            return jsonify({'message': 'Anime já existe no banco de dados.'}, 400)
+            return jsonify({'message': 'Anime: ' + data.get('title') + ' já existe no banco de dados.'}, 400)
 
         inserir_dados_no_banco(data)
-        return jsonify({'message': 'Anime adicionado com sucesso!'}, 200)
+        return jsonify({'message': 'Anime: ' + data.get('title') +  ' adicionado com sucesso ao banco de dados!'}, 200)
     except sqlite3.Error as e:
         print(f"Erro SQLite: {e}")
     except Exception as e:
