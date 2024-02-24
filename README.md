@@ -13,6 +13,9 @@ Bom o sistema Flaskime (combinação da palavra Flask e Anime) é dividido em 2 
 e a lógica de gravar os animes é feito pelo banco de dados SQLite3 criando um database 
 listaanime.db que ao executar o servidor ele é criado automaticamente para facilitar 😃 (seu script está disponivel em banco.py)
 
+![image](https://github.com/Atn4s/Flaskime_server/assets/61942303/b2ce16a6-688b-4823-9a6e-79936e2ce8b3)
+
+
 ## Como posso testar?
 
 <b> 1 - Instale os requisitos do sistema listados no arquivo requirements.txt: </b>
