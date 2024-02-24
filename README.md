@@ -19,10 +19,10 @@ listaanime.db que ao executar o servidor ele é criado automaticamente para faci
 ## Como posso testar?
 
 <b> 1 - Instale os requisitos do sistema listados no arquivo requirements.txt: </b>
-<i>``bash pip install -r requirements.txt ``</i>
+<i>``pip install -r requirements.txt ``</i>
 <br>
 <b> 2 - Verifique se você possui as versões mais recentes das bibliotecas necessárias: </b>
-<i> ``bash pip install --upgrade -r requirements.txt ``</i>
+<i> ``pip install --upgrade -r requirements.txt ``</i>
 <br>
 <b> 3 - Após instalar os requisitos basta executar: </b>
 <i> python3 servidor.py {porta desejada para o Back-end da aplicação Flaskime!} </i>
