@@ -13,7 +13,7 @@ Bom o sistema Flaskime (combinação da palavra Flask e Anime) é dividido em 2 
 e a lógica de gravar os animes é feito pelo banco de dados SQLite3 criando um database 
 listaanime.db que ao executar o servidor ele é criado automaticamente para facilitar 😃 (seu script está disponivel em banco.py)
 
-![image](https://github.com/Atn4s/Flaskime_server/assets/61942303/b2ce16a6-688b-4823-9a6e-79936e2ce8b3)
+![image](https://github.com/Atn4s/Flaskime_web/assets/61942303/61ea45fd-cc94-4547-af6f-f33c92f6b641)
 
 
 ## Como posso testar?
@@ -27,7 +27,11 @@ listaanime.db que ao executar o servidor ele é criado automaticamente para faci
 <b> 3 - Após instalar os requisitos basta executar: </b>
 <i> python3 servidor.py {porta desejada para o Back-end da aplicação Flaskime!} </i>
 <br>
-<b> 4 - Agora o resto é no <a href="https://github.com/Atn4s/Flaskime_web">Front end!</a> (Relaxe é apenas configurar seu IP e PORTA)</b>
+<b> 4 - Agora se quiser testar pode usar aqui: <a href="https://atn4s.github.io/Flaskime_web/">Flaskime_web</a> 
+(É o mesmo código do repositório <a href="https://github.com/Atn4s/Flaskime_web">Repositório Flaskime_web</a>
+ onde ele está configurado também com Github Page, você só precisa configurar seu IP e PORTA) </b> 
+<br>
+<b>5 - Ou se quiser modificar ou copiar o front-end <a href="https://github.com/Atn4s/Flaskime_web">Front end!</a> aqui está o repositório</b> 
 <br>
 <b> Aproveite a aplicação Flaskime - Your personal haven for anime: private, secure, and always local.</b>
 <br>

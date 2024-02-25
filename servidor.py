@@ -5,12 +5,15 @@ from flask_cors import CORS
 app = Flask('Flaskime') 
 CORS(app, resources={r"/*": {"origins": "*"}})  
 
-def verifyData():
-    if not os.path.exists('listaanime.db'):
-        os.system('python3 banco.py')
+def initialize_database():
+    try:
+        if not os.path.exists('listaanime.db'):
+            os.system('python3 banco.py')
+    except Exception as e:
+        print(f"Erro ao inicializar o banco de dados: {e}")
+        sys.exit(1)
 
-for number in range(2):
-    verifyData()
+initialize_database()
 
 @app.route('/buscar/<nome_anime>', methods=['GET']) 
 def jikanAPI(nome_anime):
